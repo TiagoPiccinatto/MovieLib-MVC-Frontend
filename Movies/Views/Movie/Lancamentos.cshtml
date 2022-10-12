@@ -1,0 +1,29 @@
+﻿
+@model IEnumerable<Resultss>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<table class="table">
+    
+    
+    <tbody>
+
+    
+    <div class="container text-center">
+  <div class="row">
+    @foreach (var item in Model)
+  {
+      string img = $"https://image.tmdb.org/t/p/w500/";
+      <div class="col">
+      <h1>@Html.DisplayFor(modelItem => item.title)</h1>
+      <img src="@img@Html.DisplayFor(modelItem => item.poster_path)" width="350" height="450" alt="">
+      <P>@Html.DisplayFor(modelItem => item.overview)</P> 
+    </div>
+  }                     
+  </div>
+</div>
+    </tbody>
+</table>

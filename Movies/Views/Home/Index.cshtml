@@ -1,0 +1,22 @@
+﻿
+@model IEnumerable<Resultss>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="card carousel-inner">
+    <div class="carou carousel-item active">
+      <img src="https://image.tmdb.org/t/p/w500/sKvQUSyqsFq8e1ts6oo3Xp3dPH2.jpg" class="d-block w-100" alt="...">
+      
+    </div>
+        @foreach (var item in Model){
+            string img = "https://image.tmdb.org/t/p/w500/";
+            
+            <div class="carou carousel-item">
+                <img src="@img@Html.DisplayFor(modelItem => item.backdrop_path)" class="d-block w-100" alt="...">
+            </div>
+        }
+  </div>
+</div>

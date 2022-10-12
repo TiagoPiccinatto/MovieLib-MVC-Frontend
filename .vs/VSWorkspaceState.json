@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Movies",
+    "\\Movies\\Controllers",
+    "\\Movies\\Interface",
+    "\\Movies\\Models",
+    "\\Movies\\Repositorio",
+    "\\Movies\\Views",
+    "\\Movies\\Views\\Movie"
+  ],
+  "SelectedNode": "\\Movies\\Repositorio\\MovieRepositorio.cs",
+  "PreviewInSolutionExplorer": false
+}

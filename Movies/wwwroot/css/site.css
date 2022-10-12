@@ -1,0 +1,91 @@
+*{
+    font-family:Helvetica;
+}
+
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.icon {
+    margin: 8px;
+    color: yellow;
+}
+
+.icon:hover{
+    color:rgb(92, 100, 21);
+}
+
+.icc{
+    color:white;
+    text-decoration:none;
+    font-size: 25px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.nc {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 18px;
+    padding-right: inherit;
+}
+
+    .nc:hover {
+        color: rgb(221, 255, 0);
+    }
+
+.row {
+    background-color: rgb(235, 235, 235);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.col{
+   background-color:rgb(25, 25, 25);
+   margin: 7px;
+   border-radius: 10px;
+   border: 3px solid rgb(0, 0, 0);
+   color: white;
+   
+}
+
+.carou{
+    height: 60%;
+    width:60%;
+    background-color:black;
+}
+
+.card {
+    background-color: rgb(25, 25, 25);
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
